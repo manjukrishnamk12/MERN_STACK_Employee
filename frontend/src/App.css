@@ -1,0 +1,238 @@
+/*Login Css*/
+@media (max-width: 768px) {
+  #log {
+      width: 80%; /* Adjust the width for smaller screens */
+      margin-top:20px;
+  }
+
+  #sign{
+    width: 100%; /* Adjust the width for smaller screens */
+  }
+  #signform{
+    width:100%;
+  }
+  #head{
+    font-size: x-large;
+  }
+  .textFieldContainer {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  #outlined-error{
+    align-items:center;
+    width:100%
+    
+   }
+}
+
+
+#head{
+   
+  color:rgb(15, 36, 50);
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+body{
+  margin: 0;
+  padding: 0;
+  background-image: url('cool-background.png');
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.text{
+width:100%;
+
+}
+.btn-log{
+  width:100%;
+}
+#log
+{
+  width: 100%;
+  /* Optional, for a fixed background */
+  display: flex;
+  justify-content: center; /* Horizontal alignment */
+  align-items: center; /* Vertical alignment */
+}
+.loginform{
+
+    
+    width: 25%; /* Adjust the width as needed */
+  padding: 10px;
+  border: 1px solid rgb(21, 8, 62);
+  border-radius: 5px;
+  margin:13%;
+  justify-content: center; /* Horizontal alignment */
+  align-items: center; /* Vertical alignment */
+
+ 
+
+}
+
+
+
+/*NavBar*/
+
+
+
+
+/* Add employee */
+/* #signhead{
+   
+  color:black;
+  font-size:x-large;
+  text-align: center;
+  font-family: cursive;
+}
+#container {
+  display: flex;
+  justify-content: center;
+}
+
+#signform {
+  margin-top: 20px;
+  width: 50%;  Adjust the width as needed
+  padding: 10px 0;
+  border: 2px solid green;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+#submit{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  width:100%;
+  background-color:rgb(7, 189, 82);
+}
+#submit:hover{
+  background-color:rgb(89, 0, 255);
+  color: white;
+   
+}
+#sign{
+  
+  width: 100%;
+  
+  height: 100vh;
+
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+
+}
+.textfields{
+   
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: white;
+  margin-left: 50px;
+  width:80%
+}    */
+
+
+/*Admin Home*/
+
+
+.table-container {
+  /* overflow-x: auto;  */
+  width: 90%;
+  margin: 0 auto;
+  
+} 
+
+.employee-table {
+   width: 50%; 
+   height:50%;
+  border-collapse: collapse;
+  border: 1px solid rgba(137, 151, 137,0.5);
+  
+  margin-top: 5%;
+  /* margin-left: 20px; */
+  /* margin-right: 100px; */
+}
+
+
+
+
+@media screen and (max-width: 600px) {
+  .employee-table {
+    overflow-x: auto;
+    display: block;
+  }
+  #signform{
+    margin-top: 150px;
+  }
+
+}
+
+
+.table-cell {
+  /* border: 1px solid rgb(15, 17, 15); Add border to cells */
+  padding: 8px; /* Add padding to cells */
+  text-align: left; /* Adjust text alignment as needed */
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.action-button {
+  margin-right: 4px; /* Adjust margin between buttons */
+}
+.employee-table th {
+  background-color: rgba(157, 207, 154, 0.5); /*Background color for table head */
+  color: rgb(22, 21, 21);
+  font-size: larger;
+  font-family: cursive;
+}
+.employee-table tbody tr:hover {
+  background-color: #d5c9c9; /* Background color on hover */
+}
+.employee-table td .icon {
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+/* userhome */
+
+.cardContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 7% auto;
+}
+
+.card {
+  width: 300px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: '10px'; /* Increased border-radius for a rounded look */
+  border: 2px solid #419d3a; /* Changed border color to a light green */
+  background-color: rgba(171, 115, 115, 0.1) !important; /* Changed background color to light blue */
+  transition: transform 0.3s ease-in-out; /* Added a smooth transition effect */
+
+  &:hover {
+    transform: scale(1.05); /* Zoom in slightly on hover */
+  }
+  & .MuiTypography-root {
+    font-family: cursive;
+    /* color: #333; Change to your preferred text color */
+  }
+}
+
+
+
+/* .cardContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+.card {
+  width: 300px;  Adjust the width as needed
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  border: 1px solid green;
+  background-color: beige;
+  
+} */
